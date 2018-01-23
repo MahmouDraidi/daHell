@@ -1,1 +1,6 @@
-
+<project default="compile"›
+         <property name="src.java.dir" location="./src/najah/edu"/>
+<property nane="result.dir" location="./target"/> <property name="result.javaclasses.dir" location=llresult.dirl/classes"/> 
+<target name="compile"› <mkdir dir="S{result.javaclasses.dir}"/> <javac srcdir="Sfsrc.java.dirr destdir="Sfresult.javaclasses.dirl" debug="true" includeantruntime="false"> </javac> 
+</target> 
+</project> 
